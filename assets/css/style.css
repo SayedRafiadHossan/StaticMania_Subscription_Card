@@ -1,0 +1,193 @@
+body {
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    margin: 0;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+.full-body {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    background-color: black;
+    border: 1px solid white;
+    padding: 25px;
+    max-width: 350px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.card-2 {
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 25px;
+    max-width: 350px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.background-img1 {
+    width: 250px;
+    height: 130px;
+    position: absolute;
+    left: 520px;
+    top: 180px;
+}
+
+.background-img2 {
+    width: 250px;
+    height: 130px;
+    position: absolute;
+    left: 950px;
+    top: 180px;
+}
+
+.card-header h2 {
+    font-size: 25px;
+    font-weight: 10;
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
+
+.card-header p {
+    font-size: 11px;
+    color: white;
+    font-weight: 10;
+}
+
+.price-section {
+    display: flex;
+    margin: 20px 0px 20px;
+}
+
+.price-section .price {
+    font-size: 40px;
+    margin-right: 30px;
+}
+
+.price-section .subtext {
+    margin-top: 18px;
+    font-size: 10px;
+}
+
+.button-1 {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 16px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    transition: ease-out 0.4s;
+}
+
+.button-1:hover {
+    box-shadow: inset 0 -100px 0 0 black;
+    color: white;
+}
+
+.button-2 {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+    -webkit-transition: ease-out 0.1s;
+    -moz-transition: ease-out 0.1s;
+    transition: ease-out 0.4s;
+}
+
+.button-2:hover {
+    box-shadow: inset 0 -100px 0 0 white;
+    color: black;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+}
+
+.features li {
+    font-size: 14px;
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 6px;
+}
+
+.toggle-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.toggle-container {
+    background-color: #00f0e0;
+    border-radius: 30px;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    box-shadow: 0 0 10px #00f0e0;
+}
+
+.toggle-option-2 {
+    margin-right: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 10px 0px;
+    color: black;
+}
+
+.toggle-option-1 {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    width: 80px;
+    height: 24px;
+    padding: 8px 0px 5px;
+    margin: 2px 0px 0px 2px;
+    border-radius: 25px;
+    position: absolute;
+}
+
+
+/* .active-bg {
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 4px;
+    width: calc(50% - 4px);
+    background-color: white;
+    border-radius: 30px;
+    transition: left 0.3s ease;
+    z-index: 0;
+} */
+
+/* 
+.toggle-container.active .active-bg {
+    left: calc(50% + 0px);
+}
+
+.toggle-container.active .toggle-option:nth-child(2) {
+    color: white;
+}
+
+.toggle-container:not(.active) .toggle-option:nth-child(1) {
+    color: white;
+} */

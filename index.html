@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <div class="toggle-container">
+            <div class="toggle-options" id="billingToggle">
+                <a class="toggle-option Monthly active" onclick="toggleBilling('Monthly')">Monthly</a>
+                <a class="toggle-option Yearly" onclick="toggleBilling('Yearly')">Yearly</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Monthly Billing -->
+            <div class="card Monthly highlighted">
+                <div class="card-header">
+                    <img class="card-background" src="/assets/images/pricing-gradient-bg-1.png" alt="">
+                    <h2>Design Project</h2>
+                    <p>
+                        Ideal for entrepreneurs seeking a cohesive approach for branding. web design, app, 3D, and
+                        motion
+                        projects.
+                    </p>
+                </div>
+                <div class="price-section">
+                    <span class="price">Custom</span>
+                    <span class="subtext">Flexible payment schedule,<br />50% down payment</span>
+                </div>
+                <button class="price-action">BOOK INTRO CALL</button>
+
+                <ul class="features">
+                    <li><i class="fa-solid fa-circle-check"></i> Basic Components & variants</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Lifetime updates</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Single user</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Ready-to-use dashboard</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Delivered in milestones</li>
+                    <li><i class="fa-regular fa-circle-check"></i> Premium support</li>
+                    <li><i class="fa-regular fa-circle-check"></i> Invite your team to collaborate</li>
+                    <li><i class="fa-regular fa-circle-check"></i> Managed via Slack and Trello</li>
+                </ul>
+            </div>
+
+            <div class="card Monthly">
+                <div class="card-header">
+                    <img class="card-background" src="/assets/images/pricing-gradient-bg-2.png" alt="">
+                    <h2>Design Subscription</h2>
+                    <p>
+                        A no-brainer solution for growing companies looking for ongoing design support and seamless
+                        integration.
+                    </p>
+                </div>
+                <div class="price-section">
+                    <span class="price">$10k /m</span>
+                    <span class="subtext">Paid Monthly<br />Pause or cancel anytime.</span>
+                </div>
+                <button class="price-action">ON REQUEST</button>
+
+                <ul class="features">
+                    <li><i class="fa-solid fa-circle-check"></i> Basic Components & variants</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Lifetime updates</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Single user</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Ready-to-use dashboard</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Delivered in milestones</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Premium support</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Invite your team to collaborate</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Managed via Slack and Trello</li>
+                </ul>
+            </div>
+
+            <!-- Yearly Billing -->
+            <div class="card Yearly">
+                <div class="card-header">
+                    <img class="card-background" src="/assets/images/pricing-gradient-bg-1.png" alt="">
+                    <h2>Design Project</h2>
+                    <p>
+                        Ideal for entrepreneurs seeking a cohesive approach for branding. web design, app, 3D, and
+                        motion
+                        projects.
+                    </p>
+                </div>
+                <div class="price-section">
+                    <span class="price">Custom</span>
+                    <span class="subtext">Flexible payment schedule,<br />50% down payment</span>
+                </div>
+                <button class="price-action">BOOK INTRO CALL</button>
+
+                <ul class="features">
+                    <li><i class="fa-solid fa-circle-check"></i> Basic Components & variants</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Lifetime updates</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Single user</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Ready-to-use dashboard</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Delivered in milestones</li>
+                    <li><i class="fa-regular fa-circle-check"></i> Premium support</li>
+                    <li><i class="fa-regular fa-circle-check"></i> Invite your team to collaborate</li>
+                    <li><i class="fa-regular fa-circle-check"></i> Managed via Slack and Trello</li>
+                </ul>
+            </div>
+
+            <div class="card Yearly highlighted">
+                <div class="card-header">
+                    <img class="card-background" src="/assets/images/pricing-gradient-bg-2.png" alt="">
+                    <h2>Design Subscription</h2>
+                    <p>
+                        A no-brainer solution for growing companies looking for ongoing design support and seamless
+                        integration.
+                    </p>
+                </div>
+                <div class="price-section">
+                    <span class="price">$10k /m</span>
+                    <span class="subtext">Paid Monthly<br />Pause or cancel anytime.</span>
+                </div>
+                <button class="price-action">ON REQUEST</button>
+
+                <ul class="features">
+                    <li><i class="fa-solid fa-circle-check"></i> Basic Components & variants</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Lifetime updates</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Single user</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Ready-to-use dashboard</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Delivered in milestones</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Premium support</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Invite your team to collaborate</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Managed via Slack and Trello</li>
+                </ul>
+            </div>            
+        </div>
+    </section>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>

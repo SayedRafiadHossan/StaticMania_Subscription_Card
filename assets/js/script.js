@@ -1,5 +1,4 @@
 function toggleBilling(view) {
-  // Toggle Button
   const toggleButtons = document.querySelectorAll(".toggle-option");
   toggleButtons.forEach((button) => {
     if (button.classList.contains(view)) {
@@ -20,7 +19,6 @@ function toggleBilling(view) {
   });
 }
 
-// Default view
 window.onload = function () {
   toggleBilling("Monthly");
 };
